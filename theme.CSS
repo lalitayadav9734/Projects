@@ -1,0 +1,58 @@
+/* Default theme */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+/* Dark mode */
+html.dark body {
+    background-color: black;
+    color: white;
+}
+
+/* Clock styles */
+.class-container {
+    text-align: center;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 10px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.needle {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: left;
+}
+
+.hour {
+    height: 4px;
+}
+
+.center-point {
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 80%;
+    background: #ddd;
+    padding: 3px 8px;
+}
